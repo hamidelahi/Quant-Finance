@@ -13,8 +13,7 @@ Original file is located at
 
 from google.colab import drive
 
-# Try force remounting the drive
-drive.mount('/content/drive', force_remount=True)
+
 
 !pip install arch
 
@@ -69,15 +68,3 @@ pValue = vr_test.pvalue
 print(f"Variance Ratio Test Statistic (h): {h}")
 print(f"P-Value: {pValue}")
 
-!git init
-
-!git add .
-!git commit -m "Your commit message"
-!git push origin main
-
-!git clone https://github.com//hamidelahi/Quant-Finance.git
-
-!git config --global user.email "hamid.elahi@gmail.com"
-!git config --global user.name "hamidelahi"
-
-!git add --all
